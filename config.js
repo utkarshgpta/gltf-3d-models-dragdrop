@@ -1,9 +1,7 @@
 var config = {};
 
 config.db = {};
-// the URL shortening host - shortened URLs will be this + baseHash ID
 
-// i.e.: http://localhost:5000/3Ys
 config.webhost = 'https://gltf-drag-drop.herokuapp.com/';
 
 // your MongoDB host and database name
