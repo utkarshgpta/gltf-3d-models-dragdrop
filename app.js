@@ -20,7 +20,7 @@ var db_url;
 if (process.env.MONGODB_URI) db_url = process.env.MONGODB_URI;
 else db_url = config.db.localhost + ':' + config.db.port;
 
-var dbName = '3dmodel';
+var dbName = 'gltfmodel';
 
 const client = new MongoClient(db_url, { useNewUrlParser: true });
 client.connect(function(err) {
