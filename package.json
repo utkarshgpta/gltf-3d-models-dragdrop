@@ -13,5 +13,8 @@
     "mongodb": "^3.2.5",
     "nodemon": "^1.19.0",
     "three": "^0.104.0"
+  },
+  "scripts": {
+  	"start": "node app.js"
   }
 }
