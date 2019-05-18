@@ -1,0 +1,17 @@
+{
+  "name": "drag-3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utkarsh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5",
+    "nodemon": "^1.19.0",
+    "three": "^0.104.0"
+  }
+}
